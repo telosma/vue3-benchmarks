@@ -1,18 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <!-- <HelloWorld msg="Hello Vue 3.0 + Vite" /> -->
   <big-table />
+  <!-- <UpTime /> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import BigTable from './benchmarks/big-table/BigTable.vue'
+// import UpTime from './benchmarks/uptime/UpTime.vue';
+import BigTable from './benchmarks/big-table/BigTable.vue';
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
-    BigTable
-  }
-}
+    BigTable,
+    // UpTime,
+  },
+};
 </script>
