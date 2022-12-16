@@ -124,12 +124,13 @@ export default {
     window.onhashchange = function () {
       window.location.reload();
     };
-    setTimeout(() => {
-      this.msg =
-        'initial render took: ' +
-        (window.performance.now() - s).toFixed(2) +
-        'ms';
-    }, 0);
+    // setTimeout(() => {
+    //   let s = window.performance.now();
+    //   this.msg =
+    //     'initial render took: ' +
+    //     (window.performance.now() - s).toFixed(2) +
+    //     'ms';
+    // }, 0);
   },
   updated() {
     setTimeout(function () {
